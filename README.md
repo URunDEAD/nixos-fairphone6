@@ -12,6 +12,7 @@ Desktop-neutral NixOS / Mobile NixOS integration for the Fairphone (Gen. 6) (SM7
 | **nixos-fairphone6** (this) | NixOS / Mobile NixOS packaging, device modules, reference image |
 | [lomiri-fairphone6](https://github.com/URunDEAD/lomiri-fairphone6) | Lomiri/Mir shell, Phosh and Ubuntu Touch apps on NixOS: the original full-stack port |
 | Velrune OS (private) | A consumer of this layer |
+| [redox-fairphone6](https://github.com/URunDEAD/redox-fairphone6) | Redox OS bring-up on the same phone (experimental) |
 
 ## History
 
