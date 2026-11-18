@@ -1,3 +1,0 @@
-module Lomiri.Indicators
-SharedLomiriMenuModel 0.1 SharedLomiriMenuModel.qml
-singleton FakeMenus 0.1 FakeMenus.qml

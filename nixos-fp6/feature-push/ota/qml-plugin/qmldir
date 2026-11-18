@@ -1,3 +1,0 @@
-module Fp6.Update
-plugin fp6updateplugin
-UpdateModel 1.0 UpdateModel.qml

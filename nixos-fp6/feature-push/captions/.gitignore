@@ -1,9 +1,0 @@
-/target/
-/.cargo/
-/.cargo-home/
-/result*
-*.bin
-*.part
-*.wav
-/benchmarks/work/
-/patches/*.patch

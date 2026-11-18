@@ -1,0 +1,59 @@
+{
+  "nodes": {
+    "fairphone6-hardware": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793538032,
+        "narHash": "sha256-3qD4I1v52KhVfVfn2Zi5KRaG8kkA0EWX55mponyFwwc=",
+        "ref": "refs/heads/main",
+        "rev": "0e4b6f92723d3c345aa4da93646ccd6ab2ea744f",
+        "revCount": 29,
+        "type": "git",
+        "url": "https://github.com/URunDEAD/linux-fairphone6.git"
+      },
+      "original": {
+        "rev": "0e4b6f92723d3c345aa4da93646ccd6ab2ea744f",
+        "type": "git",
+        "url": "https://github.com/URunDEAD/linux-fairphone6.git"
+      }
+    },
+    "mobile-nixos": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1783912271,
+        "narHash": "sha256-CzwmiKxuh1u+H8hDnrVeUl/fL59PvsgLbr2l0FhqWK0=",
+        "owner": "mobile-nixos",
+        "repo": "mobile-nixos",
+        "rev": "2c132754323fc1915e8d21dcfc0ef68ab084c6fb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mobile-nixos",
+        "repo": "mobile-nixos",
+        "rev": "2c132754323fc1915e8d21dcfc0ef68ab084c6fb",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1783680076,
+        "narHash": "sha256-nFgG4gPQueCgP8LidXsdI2lYPrSwTcmDl6afcVn7F/U=",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1031299.0bb7ec54c848/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1031299.0bb7ec54c848/nixexprs.tar.xz"
+      }
+    },
+    "root": {
+      "inputs": {
+        "fairphone6-hardware": "fairphone6-hardware",
+        "mobile-nixos": "mobile-nixos",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

@@ -1,0 +1,36 @@
+{
+  "module_evaluation": {
+    "commonDisabled": true,
+    "emptyDevelopmentKeysRejected": true,
+    "noDefaultSsh": true,
+    "optIns": true,
+    "packages": {
+      "csvoiced-fairphone6": "fp6-csvoiced-0.1.0",
+      "fingerprintd-fairphone6": "fingerprintd-0.2.6",
+      "imsd-fairphone6": "imsd-1.1.0",
+      "kernel-fairphone6": "linux-fp6-nixos-7.2.0",
+      "libcamera-fairphone6": "libcamera-fp6-pmos-0.7.2",
+      "libcamera-fairphone6-selfie": "libcamera-fp6-selfie-0.7.2",
+      "lpac-qrtr": "lpac-qrtr-2.3.0",
+      "ucm-fairphone6": "alsa-ucm-conf-fp6-feature-1.2.16"
+    },
+    "phone": {
+      "compression": "zstd",
+      "failedAssertions": [],
+      "identity": "Fairphone (Gen. 6)",
+      "noDebugAccess": true,
+      "noDesktop": true,
+      "rootDevice": "/dev/disk/by-label/EVALUATION_ONLY",
+      "suspendDisabled": true,
+      "system": "aarch64-linux"
+    }
+  },
+  "package_derivations_evaluated": 8,
+  "runtime_tested": false,
+  "kernel_or_image_built": false,
+  "date": "2026-11-01",
+  "static_checks": "passed",
+  "source_patching": "Two pinned Mobile NixOS compatibility patches realized on x86_64-linux; no package/kernel/image compilation",
+  "fixtures": "Module evaluation uses a substitute kernel, empty firmware package and a non-image template placeholder; not real image validation",
+  "privacy_scan": "One reviewed generic-pattern match: forbidden credential-setting names in tests/static.py; no credential value. No private literal-pattern list available."
+}

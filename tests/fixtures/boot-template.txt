@@ -1,0 +1,1 @@
+Evaluation-only placeholder; not a boot image. Never build or boot this fixture.

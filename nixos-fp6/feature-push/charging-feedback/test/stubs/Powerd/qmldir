@@ -1,2 +1,0 @@
-module Powerd
-singleton Powerd 0.1 Powerd.qml

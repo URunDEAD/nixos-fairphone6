@@ -1,9 +1,0 @@
-/target/
-/result
-/result-*
-/evaluation/models/
-/evaluation/generated/
-*.log
-
-/commits.bundle
-__pycache__/

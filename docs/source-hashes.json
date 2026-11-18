@@ -1,0 +1,11 @@
+{
+  "source": "https://github.com/URunDEAD/nixos-fairphone6/tree/lomiri-final",
+  "revision": "74aa719abaa7e0bacb36038627bf548d98e7523d",
+  "copied": [
+    {
+      "source_path": "kernel-build/repack-new-kernel.py",
+      "path": "devices/fairphone6/repack-boot.py",
+      "sha256": "062f49e196504c288f0d43bbfbe6cc7d15356e3096b8e327ae67f91fd936da62"
+    }
+  ]
+}
