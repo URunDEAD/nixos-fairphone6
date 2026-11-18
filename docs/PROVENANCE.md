@@ -1,6 +1,6 @@
 # Provenance and current scope
 
-Hardware source: [linux-fairphone6](https://github.com/URunDEAD/linux-fairphone6) at `0e4b6f92723d3c345aa4da93646ccd6ab2ea744f`. Its provenance records the original source, this repository before it became NixOS-only, at `74aa719abaa7e0bacb36038627bf548d98e7523d` (tag `lomiri-final`).
+Hardware source: [linux-fairphone6](https://github.com/URunDEAD/linux-fairphone6) at `0e4b6f92723d3c345aa4da93646ccd6ab2ea744f`. Its provenance records the original source, this repository before it became NixOS-only, at `45d07cde3611922a8302a387f4cf392c1340725f` (tag `lomiri-final`).
 
 Mobile NixOS: upstream `2c132754323fc1915e8d21dcfc0ef68ab084c6fb`, with zstd initrd and FunctionFS module-name patches referenced from the hardware repository. nixpkgs uses the same pinned release archive as that Mobile NixOS checkpoint and the original kernel recipes.
 
